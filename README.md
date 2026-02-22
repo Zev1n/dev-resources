@@ -46,29 +46,30 @@
 ---
 
 ## 📚 Índice
+
 - [Links Úteis](#-links-úteis)
 - [Sobre o Projeto](#-sobre-o-projeto)
 - [Funcionalidades Principais](#-funcionalidades-principais)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Arquitetura](#-arquitetura)
-  - [Exemplos de diagramas](#exemplos-de-diagramas)
+    - [Exemplos de diagramas](#exemplos-de-diagramas)
 - [Instalação e Execução](#-instalação-e-execução)
-  - [Pré-requisitos](#pré-requisitos)
-  - [Variáveis de Ambiente](#-variáveis-de-ambiente)
-     - [2 Front-end (React, Vite)](#2-front-end-react-vite)
-     - [3 Exemplos de Variáveis de Ambiente na Vercel](#3-exemplos-de-variáveis-de-ambiente-na-vercel)
-  - [Instalação de Dependências](#-instalação-de-dependências)
-    - [Front-end (React)](#front-end-react)
-  - [Inicialização do Banco de Dados (PostgreSQL)](#-inicialização-do-banco-de-dados-postgresql)
-  - [Como Executar a Aplicação](#-como-executar-a-aplicação)
-    - [Terminal 2: Front-end (React, Vite)](#terminal-2-front-end-react-vite)
-    - [Passos para build, inicialização e execução](#-passos-para-build-inicialização-e-execução)
+    - [Pré-requisitos](#pré-requisitos)
+    - [Variáveis de Ambiente](#-variáveis-de-ambiente)
+        - [2 Front-end (React, Vite)](#2-front-end-react-vite)
+        - [3 Exemplos de Variáveis de Ambiente na Vercel](#3-exemplos-de-variáveis-de-ambiente-na-vercel)
+    - [Instalação de Dependências](#-instalação-de-dependências)
+        - [Front-end (React)](#front-end-react)
+    - [Inicialização do Banco de Dados (PostgreSQL)](#-inicialização-do-banco-de-dados-postgresql)
+    - [Como Executar a Aplicação](#-como-executar-a-aplicação)
+        - [Terminal 2: Front-end (React, Vite)](#terminal-2-front-end-react-vite)
+        - [Passos para build, inicialização e execução](#-passos-para-build-inicialização-e-execução)
 - [Deploy](#-deploy)
 - [Estrutura de Pastas](#-estrutura-de-pastas)
 - [Demonstração](#-demonstração)
-  - [Aplicativo Mobile](#-aplicativo-mobile)
-  - [Aplicação Web](#-aplicação-web)
-  - [Exemplo de saída no Terminal (para Back-end, API, CLI)](#-exemplo-de-saída-no-terminal-para-back-end-api-cli)
+    - [Aplicativo Mobile](#-aplicativo-mobile)
+    - [Aplicação Web](#-aplicação-web)
+    - [Exemplo de saída no Terminal (para Back-end, API, CLI)](#-exemplo-de-saída-no-terminal-para-back-end-api-cli)
 - [Testes](#-testes)
 - [Documentações utilizadas](#-documentações-utilizadas)
 - [Autores](#-autores)
@@ -79,25 +80,27 @@
 ---
 
 ## 🔗 Links Úteis
-* 🌐 **Demo Online:** [Acesse a Aplicação Web](<link-da-demo-web>)
-  > 💻 **Descrição:** Link para a aplicação em ambiente de produção (Ex: hospedado na Vercel, Netlify ou AWS S3).
 
+- 🌐 **Demo Online:** [Acesse a Aplicação Web](link-da-demo-web)
+    > 💻 **Descrição:** Link para a aplicação em ambiente de produção (Ex: hospedado na Vercel, Netlify ou AWS S3).
 
 ---
 
 ## 📝 Sobre o Projeto
+
 Nesta seção, descreva de forma clara e objetiva **o propósito do seu projeto**, explicando:
 
-- **Por que ele existe** — qual motivação levou à sua criação.  
-- **Qual problema ele resolve** — que dor, necessidade ou oportunidade ele atende.  
-- **Qual o contexto** — acadêmico, profissional, pessoal, experimental, etc.  
-- **Onde ele pode ser utilizado** — cenários reais ou simulados.  
+- **Por que ele existe** — qual motivação levou à sua criação.
+- **Qual problema ele resolve** — que dor, necessidade ou oportunidade ele atende.
+- **Qual o contexto** — acadêmico, profissional, pessoal, experimental, etc.
+- **Onde ele pode ser utilizado** — cenários reais ou simulados.
 
 Procure responder perguntas como:
-- *Qual foi a ideia inicial do projeto?*
-- *O que ele entrega de valor ao usuário?*
-- *Por que alguém utilizaria ou contribuiria com esse projeto?*
-- *O que o torna relevante ou interessante?*
+
+- _Qual foi a ideia inicial do projeto?_
+- _O que ele entrega de valor ao usuário?_
+- _Por que alguém utilizaria ou contribuiria com esse projeto?_
+- _O que o torna relevante ou interessante?_
 
 Escreva de forma objetiva, mas completa, para que qualquer pessoa entenda rapidamente **o que é** e **por que importa**.
 
@@ -107,6 +110,7 @@ Escreva de forma objetiva, mas completa, para que qualquer pessoa entenda rapida
 ---
 
 ## ✨ Funcionalidades Principais
+
 Liste as funcionalidades de forma clara e objetiva.
 
 - 🔐 **Autenticação Segura:** Login, Cadastro e Recuperação de Senha.
@@ -126,11 +130,11 @@ As seguintes ferramentas, frameworks e bibliotecas foram utilizados na construç
 
 ### 💻 Front-end
 
-* **Framework/Biblioteca:** [Ex: React v18, Vue.js v3, Angular v17]
-* **Linguagem/Superset:** [Ex: TypeScript, JavaScript ES6+]
-* **Estilização:** [Ex: Tailwind CSS, Sass, Styled Components, Material UI]
-* **Gerenciamento de Estado:** [Ex: Redux Toolkit, Zustand, Context API]
-* **Build Tool:** [Ex: Vite, Webpack]
+- **Framework/Biblioteca:** [Ex: React v18, Vue.js v3, Angular v17]
+- **Linguagem/Superset:** [Ex: TypeScript, JavaScript ES6+]
+- **Estilização:** [Ex: Tailwind CSS, Sass, Styled Components, Material UI]
+- **Gerenciamento de Estado:** [Ex: Redux Toolkit, Zustand, Context API]
+- **Build Tool:** [Ex: Vite, Webpack]
 
 ---
 
@@ -148,18 +152,16 @@ Você pode incluir:
 - **Decisões arquiteturais importantes**
 - **Trade-offs** ou limitações relevantes
 
-
 ## 🔧 Instalação e Execução
 
 ### Pré-requisitos
+
 Certifique-se de que o usuário tenha o ambiente configurado.
 
-
-* **Node.js:** Versão LTS (v18.x ou superior) (Necessário para o **Front-end React**)
-* **Gerenciador de Pacotes:** npm ou yarn
+- **Node.js:** Versão LTS (v18.x ou superior) (Necessário para o **Front-end React**)
+- **Gerenciador de Pacotes:** npm ou yarn
 
 ---
-
 
 ### 📦 Instalação de Dependências
 
@@ -187,6 +189,7 @@ yarn install
 ```
 
 ### ⚡ Como Executar a Aplicação
+
 Execute a aplicação em modo de desenvolvimento em **um terminal**.
 
 #### Terminal: Front-end (React, Vite)
@@ -199,10 +202,10 @@ npm run dev
 # ou
 yarn dev
 ```
-🎨 *O Front-end estará disponível em **http://localhost:5173** (ou a porta configurada no Vite/CRA).*
+
+🎨 _O Front-end estará disponível em **http://localhost:5173** (ou a porta configurada no Vite/CRA)._
 
 ---
-
 
 #### 📦 Passos para build, inicialização e execução
 
@@ -228,16 +231,16 @@ docker ps
 ```
 
 4. **Execute as Migrações do Banco de Dados:**
-   O Back-end **Spring Boot** geralmente gerencia o schema do banco de dados (via Flyway/Liquibase ou Hibernate) na **inicialização do serviço**.
+      O Back-end **Spring Boot** geralmente gerencia o schema do banco de dados (via Flyway/Liquibase ou Hibernate) na **inicialização do serviço**.
 
-* **Verificação:** Se o serviço de Back-end (`backend` ou `api`) for o responsável pelas migrações, verifique os logs para confirmar se o processo foi concluído.
+- **Verificação:** Se o serviço de Back-end (`backend` ou `api`) for o responsável pelas migrações, verifique os logs para confirmar se o processo foi concluído.
     ```bash
     docker logs <nome_do_container_backend>
     ```
-* *Atenção:* O comando `npm run db:migrate` é exclusivo para Node.js e **não** deve ser usado.
+- _Atenção:_ O comando `npm run db:migrate` é exclusivo para Node.js e **não** deve ser usado.
 
 5. Abra no navegador:
-   O Front-end deve estar acessível na porta configurada no `docker-compose` (Exemplo: <http://localhost:3000> ou <http://localhost:5173>)
+      O Front-end deve estar acessível na porta configurada no `docker-compose` (Exemplo: <http://localhost:3000> ou <http://localhost:5173>)
 
 6. Para parar e remover todos os containers, redes e volumes (exceto volumes nomeados):
 
@@ -250,12 +253,13 @@ docker-compose down
 ---
 
 ## 🚀 Deploy
+
 Instruções claras para deploy em produção.
 
 1.  **Build do Projeto:**
-    Execute o build separadamente para os dois artefatos (JAR para o Back-end e arquivos estáticos para o Front-end).
+Execute o build separadamente para os dois artefatos (JAR para o Back-end e arquivos estáticos para o Front-end).
 
-```bash
+````bash
 # 1. Build do Front-end (React/Vite) - Gera a pasta /dist com arquivos estáticos
 cd frontend
 npm run build
@@ -279,7 +283,7 @@ java -jar backend/target/nome-do-do-projeto-0.0.1-SNAPSHOT.jar
 # Para simular a produção localmente ou rodar em uma VPS simples, use o pacote 'serve':
 npm install -g serve
 serve -s frontend/dist
-```
+````
 
 ---
 
@@ -366,64 +370,67 @@ Descreva o propósito das pastas principais.
 
 ## 🎥 Demonstração
 
-Use GIFs e prints para mostrar o projeto em ação.  
+Use GIFs e prints para mostrar o projeto em ação.
 
 > [!WARNING]
 > Dê preferência a hospedar suas imagens em um **CDN** (Content Delivery Network) ou no **GitHub Pages** para garantir que elas carreguem rapidamente e não quebrem. Saiba mais sobre o GitHub Pages clicando [aqui](https://github.com/joaopauloaramuni/joaopauloaramuni.github.io).
 
 ### 📱 Aplicativo Mobile
 
-- GIF de demonstração (exemplo de fluxo de usuário):  
+- GIF de demonstração (exemplo de fluxo de usuário):
 
-| Demonstração 1 | Demonstração 2 | Demonstração 3 | Demonstração 4 |
-|----------------|----------------|----------------|----------------|
+| Demonstração 1                                                                                                   | Demonstração 2                                                                                                   | Demonstração 3                                                                                                   | Demonstração 4                                                                                                   |
+| ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | <img src="https://joaopauloaramuni.github.io/image/fundo_mobile_engsoft.jpeg" alt="Demonstração 1" height="400"> | <img src="https://joaopauloaramuni.github.io/image/fundo_mobile_engsoft.jpeg" alt="Demonstração 2" height="400"> | <img src="https://joaopauloaramuni.github.io/image/fundo_mobile_engsoft.jpeg" alt="Demonstração 3" height="400"> | <img src="https://joaopauloaramuni.github.io/image/fundo_mobile_engsoft.jpeg" alt="Demonstração 4" height="400"> |
-| _Sua gif aqui_ | _Sua gif aqui_ | _Sua gif aqui_ | _Sua gif aqui_ |
+| _Sua gif aqui_                                                                                                   | _Sua gif aqui_                                                                                                   | _Sua gif aqui_                                                                                                   | _Sua gif aqui_                                                                                                   |
 
 Para melhor visualização, as telas principais estão organizadas lado a lado.
 
-| Tela | Captura de Tela |
-| :---: | :---: |
-| **Tela Inicial (Home)** | **Tela de Perfil / Settings** |
+|                                                           Tela                                                           |                                                     Captura de Tela                                                      |
+| :----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
+|                                                 **Tela Inicial (Home)**                                                  |                                              **Tela de Perfil / Settings**                                               |
 | <img src="https://joaopauloaramuni.github.io/image/aramunilogo.png" alt="Tela 1 do Mobile" width="120px" height="120px"> | <img src="https://joaopauloaramuni.github.io/image/aramunilogo.png" alt="Tela 2 do Mobile" width="120px" height="120px"> |
-| **Tela de Cadastro** | **Tela de Lista / Detalhes** |
+|                                                   **Tela de Cadastro**                                                   |                                               **Tela de Lista / Detalhes**                                               |
 | <img src="https://joaopauloaramuni.github.io/image/aramunilogo.png" alt="Tela 3 do Mobile" width="120px" height="120px"> | <img src="https://joaopauloaramuni.github.io/image/aramunilogo.png" alt="Tela 4 do Mobile" width="120px" height="120px"> |
 
 ### 🌐 Aplicação Web
 
 Para melhor visualização, as telas principais estão organizadas lado a lado.
 
-| Tela | Captura de Tela |
-| :---: | :---: |
-| **Página Inicial (Home)** | **Página de Login** |
-| <img src="https://joaopauloaramuni.github.io/image/aramunilogo.png" alt="Tela Inicial da Aplicação Web" width="120px" height="120px"> | <img src="https://joaopauloaramuni.github.io/image/aramunilogo.png" alt="Tela de Login" width="120px" height="120px"> |
-| **Cadastro de Clientes** | **Cadastro de Produtos** |
-| <img src="https://joaopauloaramuni.github.io/image/aramunilogo.png" alt="Tela de Cadastro de Clientes" width="120px" height="120px"> | <img src="https://joaopauloaramuni.github.io/image/aramunilogo.png" alt="Tela de Cadastro de Produtos" width="120px" height="120px"> |
-| **Dashboard (Visão Geral)** | **Página Admin / Configurações** |
-| <img src="https://joaopauloaramuni.github.io/image/aramunilogo.png" alt="Tela de Dashboard" width="120px" height="120px"> | <img src="https://joaopauloaramuni.github.io/image/aramunilogo.png" alt="Tela Administrativa" width="120px" height="120px"> |
+|                                                                 Tela                                                                  |                                                           Captura de Tela                                                            |
+| :-----------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: |
+|                                                       **Página Inicial (Home)**                                                       |                                                         **Página de Login**                                                          |
+| <img src="https://joaopauloaramuni.github.io/image/aramunilogo.png" alt="Tela Inicial da Aplicação Web" width="120px" height="120px"> |        <img src="https://joaopauloaramuni.github.io/image/aramunilogo.png" alt="Tela de Login" width="120px" height="120px">         |
+|                                                       **Cadastro de Clientes**                                                        |                                                       **Cadastro de Produtos**                                                       |
+| <img src="https://joaopauloaramuni.github.io/image/aramunilogo.png" alt="Tela de Cadastro de Clientes" width="120px" height="120px">  | <img src="https://joaopauloaramuni.github.io/image/aramunilogo.png" alt="Tela de Cadastro de Produtos" width="120px" height="120px"> |
+|                                                      **Dashboard (Visão Geral)**                                                      |                                                   **Página Admin / Configurações**                                                   |
+|       <img src="https://joaopauloaramuni.github.io/image/aramunilogo.png" alt="Tela de Dashboard" width="120px" height="120px">       |     <img src="https://joaopauloaramuni.github.io/image/aramunilogo.png" alt="Tela Administrativa" width="120px" height="120px">      |
 
 ### 💻 Exemplo de Saída no Terminal (para Back-end, API, CLI)
 
 Caso o projeto seja focado em serviços de Back-end (API, microserviço, CLI), utilize esta seção para demonstrar a interação com o sistema e a resposta esperada.
 
-
 ## 🧪 Testes
 
 ### Testes Unitários e de Integração
+
 Para rodar os testes da unidade e integração:
 
 ```
 npm run test
 ```
-*Ferramenta utilizada: Jest, Vitest, Mocha, etc.*
+
+_Ferramenta utilizada: Jest, Vitest, Mocha, etc._
 
 ### Testes End-to-End (E2E)
+
 Para rodar os testes de ponta a ponta (E2E):
 
 ```
 npm run test:e2e
 ```
-*Ferramenta utilizada: Cypress, Playwright, Selenium, etc.*
+
+_Ferramenta utilizada: Cypress, Playwright, Selenium, etc._
 
 ---
 
@@ -431,21 +438,22 @@ npm run test:e2e
 
 Liste aqui links para documentação técnica, referências de bibliotecas complexas ou guias de estilo que foram cruciais para o projeto.
 
-* 📖 **Framework/Biblioteca (Front-end):** [Documentação Oficial do **React**](https://react.dev/reference/react)
-* 📖 **Build Tool (Front-end):** [Guia de Configuração do **Vite**](https://vitejs.dev/config/)
-* 📖 **Framework (Back-end):** [Documentação Oficial do **Spring Boot**](https://docs.spring.io/spring-boot/docs/current/reference/html/)
-* 📖 **Containerização:** [Documentação de Referência do **Docker**](https://docs.docker.com/)
-* 📖 **Guia de Estilo:** [**Conventional Commits** (Padrão de Mensagens)](https://www.conventionalcommits.org/en/v1.0.0/)
-* 📖 **Documentação Interna:** [Design System do Projeto](./docs/design-system.md)
+- 📖 **Framework/Biblioteca (Front-end):** [Documentação Oficial do **React**](https://react.dev/reference/react)
+- 📖 **Build Tool (Front-end):** [Guia de Configuração do **Vite**](https://vitejs.dev/config/)
+- 📖 **Framework (Back-end):** [Documentação Oficial do **Spring Boot**](https://docs.spring.io/spring-boot/docs/current/reference/html/)
+- 📖 **Containerização:** [Documentação de Referência do **Docker**](https://docs.docker.com/)
+- 📖 **Guia de Estilo:** [**Conventional Commits** (Padrão de Mensagens)](https://www.conventionalcommits.org/en/v1.0.0/)
+- 📖 **Documentação Interna:** [Design System do Projeto](./docs/design-system.md)
 
 ---
 
 ## 👥 Autores
+
 Liste os principais contribuidores. Você pode usar links para seus perfis.
 
-| 👤 Nome | 🖼️ Foto | :octocat: GitHub | 💼 LinkedIn | 📤 Gmail |
-|---------|----------|-----------------|-------------|-----------|
-| Artur Bomtempo | <div align="center"><img src="https://avatars.githubusercontent.com/u/96635074?v=4" width="70px" height="70px" style="object-fit: cover;"></div> | <div align="center"><a href="https://github.com/arturbomtempo-dev"><img src="https://joaopauloaramuni.github.io/image/github6.png" width="50px" height="50px"></a></div> | <div align="center"><a href="https://www.linkedin.com/in/artur-bomtempo/"><img src="https://joaopauloaramuni.github.io/image/linkedin2.png" width="50px" height="50px"></a></div> | <div align="center"><a href="mailto:arturbcolen@gmail.com"><img src="https://joaopauloaramuni.github.io/image/gmail3.png" width="50px" height="50px"></a></div> |
+| 👤 Nome        | 🖼️ Foto                                                                                                                                           | :octocat: GitHub                                                                                                                                                         | 💼 LinkedIn                                                                                                                                                                                                | 📤 Gmail                                                                                                                                                                |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Artur Bomtempo | <div align="center"><img src="https://avatars.githubusercontent.com/u/96635074?v=4" width="70px" height="70px" style="object-fit: cover;"></div>  | <div align="center"><a href="https://github.com/arturbomtempo-dev"><img src="https://joaopauloaramuni.github.io/image/github6.png" width="50px" height="50px"></a></div> | <div align="center"><a href="https://www.linkedin.com/in/artur-bomtempo/"><img src="https://joaopauloaramuni.github.io/image/linkedin2.png" width="50px" height="50px"></a></div>                          | <div align="center"><a href="mailto:arturbcolen@gmail.com"><img src="https://joaopauloaramuni.github.io/image/gmail3.png" width="50px" height="50px"></a></div>         |
 | Eduarda Vieira | <div align="center"><img src="https://avatars.githubusercontent.com/u/159597766?v=4" width="70px" height="70px" style="object-fit: cover;"></div> | <div align="center"><a href="https://github.com/eduardavieira-dev"><img src="https://joaopauloaramuni.github.io/image/github6.png" width="50px" height="50px"></a></div> | <div align="center"><a href="https://www.linkedin.com/in/eduarda-vieira-gon%C3%A7alves-01a584297/"><img src="https://joaopauloaramuni.github.io/image/linkedin2.png" width="50px" height="50px"></a></div> | <div align="center"><a href="mailto:eduarda.vieira.goncalves7.com"><img src="https://joaopauloaramuni.github.io/image/gmail3.png" width="50px" height="50px"></a></div> |
 
 > [!TIP]
@@ -454,11 +462,12 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 ---
 
 ## 🤝 Contribuição
+
 Guia para contribuições ao projeto.
 
 1.  Faça um `fork` do projeto.
 2.  Crie uma branch para sua feature (`git checkout -b feature/minha-feature`).
-3. Commit suas mudanças (`git commit -m 'feat: Adiciona nova funcionalidade X'`). **(Utilize [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/))**
+3.  Commit suas mudanças (`git commit -m 'feat: Adiciona nova funcionalidade X'`). **(Utilize [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/))**
 4.  Faça o `push` para a branch (`git push origin feature/minha-feature`).
 5.  Abra um **Pull Request (PR)**.
 
@@ -468,15 +477,16 @@ Guia para contribuições ao projeto.
 ---
 
 ## 🙏 Agradecimentos
+
 Em ambiente acadêmico, citar fontes e inspirações é crucial (integridade acadêmica). Em ambiente profissional, mostra humildade e conexão com a comunidade.
 
 Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para o desenvolvimento deste projeto:
 
-* [**Engenharia de Software PUC Minas**](https://www.instagram.com/engsoftwarepucminas/) - Pelo apoio institucional, estrutura acadêmica e fomento à inovação e boas práticas de engenharia.
-* [**Prof. Dr. João Paulo Aramuni**](https://github.com/joaopauloaramuni) - Pelos valiosos ensinamentos sobre **Arquitetura de Software** e **Padrões de Projeto**.
-* [**Fernanda Kipper**](https://www.instagram.com/kipper.dev/) - Pelos valiosos ensinamentos em **Desenvolvimento Web**, **DevOps** e melhores práticas em **Front-end**.
-* [**Rodrigo Branas**](https://branas.io/) - Pela didática excepcional em **Clean Architecture** e **Clean Code**.
-* [**Código Fonte TV**](https://codigofonte.tv/) - Pelo vasto conteúdo e cobertura de notícias, tutoriais e apoio à comunidade de **Desenvolvimento Web**.
+- [**Engenharia de Software PUC Minas**](https://www.instagram.com/engsoftwarepucminas/) - Pelo apoio institucional, estrutura acadêmica e fomento à inovação e boas práticas de engenharia.
+- [**Prof. Dr. João Paulo Aramuni**](https://github.com/joaopauloaramuni) - Pelos valiosos ensinamentos sobre **Arquitetura de Software** e **Padrões de Projeto**.
+- [**Fernanda Kipper**](https://www.instagram.com/kipper.dev/) - Pelos valiosos ensinamentos em **Desenvolvimento Web**, **DevOps** e melhores práticas em **Front-end**.
+- [**Rodrigo Branas**](https://branas.io/) - Pela didática excepcional em **Clean Architecture** e **Clean Code**.
+- [**Código Fonte TV**](https://codigofonte.tv/) - Pelo vasto conteúdo e cobertura de notícias, tutoriais e apoio à comunidade de **Desenvolvimento Web**.
 
 ---
 
