@@ -1,26 +1,72 @@
 @import 'tailwindcss';
 
 :root {
-    --background: #ffffff;
-    --foreground: #171717;
+    /* White & Grays */
+    --white: #ffffff;
+    --neutral-50: #f3f4f6;
+    --neutral-200: #e5e7eb;
+    --neutral-500: #6a7282;
+
+    /* Black */
+    --black: #000000;
+    --black-900: #090909;
+
+    /* Teal/Green */
+    --teal-primary: #009689;
+    --teal-light: #00bba7;
+    --cyan-hero-start: #cffffa;
+    --cyan-hero-end: #9ce1ff;
+
+    /* Blue */
+    --blue-primary: #00a6f4;
+    --blue-accent: #00b8db;
+    --blue-accent-dark: #0092b8;
+
+    /* Yellow */
+    --yellow-primary: #fdc700;
+    --yellow-50: #fff8e0;
+
+    /* Pink */
+    --pink-primary: #f6339a;
+    --pink-50: #feebf5;
 }
 
 @theme inline {
-    --color-background: var(--background);
-    --color-foreground: var(--foreground);
-    --font-sans: var(--font-geist-sans);
-    --font-mono: var(--font-geist-mono);
-}
+    /* Colors */
+    --color-white: var(--white);
+    --color-neutral-50: var(--neutral-50);
+    --color-neutral-200: var(--neutral-200);
+    --color-neutral-500: var(--neutral-500);
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background: #0a0a0a;
-        --foreground: #ededed;
-    }
+    --color-black: var(--black);
+    --color-black-900: var(--black-900);
+
+    --color-teal-primary: var(--teal-primary);
+    --color-teal-light: var(--teal-light);
+    --color-cyan-hero-start: var(--cyan-hero-start);
+    --color-cyan-hero-end: var(--cyan-hero-end);
+
+    --color-blue-primary: var(--blue-primary);
+    --color-blue-accent: var(--blue-accent);
+    --color-blue-accent-dark: var(--blue-accent-dark);
+
+    --color-yellow-primary: var(--yellow-primary);
+    --color-yellow-50: var(--yellow-50);
+
+    --color-pink-primary: var(--pink-primary);
+    --color-pink-50: var(--pink-50);
+
+    /* Typography */
+    --color-heading: var(--black);
+    --color-subheading: #364153;
+    --color-body: var(--black);
+
+    /* Fonts */
+    --font-family-inter: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+    --font-family-manrope: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
 }
 
 body {
-    background: var(--background);
-    color: var(--foreground);
-    font-family: Arial, Helvetica, sans-serif;
+    background: var(--white);
+    color: var(--black);
 }
