@@ -359,6 +359,4 @@ Esta seção reconhece as instituições, professores e iniciativas que contribu
 
 ## 📄 Licença
 
-Este projeto é distribuído sob a **[Licença MIT](https://github.com/arturbomtempo-dev/dev-resources/blob/main/LICENSE)**.
-
----
+Este projeto é distribuído sob a **[Licença MIT](./LICENSE.md)**.
