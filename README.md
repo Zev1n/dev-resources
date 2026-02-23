@@ -4,20 +4,15 @@
 
 # Dev Resources
 
-<table>
-  <tr>
-    <td width="800px">
-      <div align="justify">
-        O <b>Dev Resources</b> é uma plataforma de <i>curadoria de recursos técnicos</i> desenvolvida por <a href="https://github.com/arturbomtempo-dev">Artur Bomtempo</a> e <a href="https://github.com/eduardavieira-dev">Eduarda Vieira</a>, estudantes do <i>quarto período</i> do curso de <b>Engenharia de Software</b> da <b>PUC Minas</b>. Este projeto representa o <i>primeiro trabalho</i> da disciplina <b>Laboratório de Desenvolvimento de Software</b>, tendo como propósito <b>auxiliar estudantes e profissionais de engenharia de software</b> a encontrarem <i>materiais confiáveis</i>, <i>recursos de qualidade</i> e <i>referências técnicas</i> para estudo e resolução de dúvidas. A plataforma reúne de forma <i>organizada</i> e <i>acessível</i> conteúdos selecionados, projetos de referência e documentações, promovendo o <b>compartilhamento de conhecimento</b> e facilitando o <i>aprendizado da comunidade</i>. Além disso, permite o <i>contato direto</i> com os desenvolvedores para troca de experiências e esclarecimentos. O Dev Resources demonstra a aplicação prática de <b>boas práticas de engenharia de software</b>, promovendo <i>qualidade</i>, <i>documentação técnica</i> e <i>colaboração</i> no ecossistema de desenvolvimento.
-      </div>
-    </td>
-    <td>
-      <div>
-        <img src="https://joaopauloaramuni.github.io/image/logo_ES_vertical.png" alt="Logo do curso de Engenharia de Software na PUC Minas" width="120px"/>
-      </div>
-    </td>
-  </tr> 
-</table>
+<div align="justify">
+O <b>Dev Resources</b> é uma plataforma de <i>curadoria de recursos técnicos</i> desenvolvida por <a href="https://github.com/arturbomtempo-dev">Artur Bomtempo</a> e <a href="https://github.com/eduardavieira-dev">Eduarda Vieira</a>, estudantes do <i>quarto período</i> do curso de <b>Engenharia de Software</b> da <b>PUC Minas</b>. Este projeto representa o <i>primeiro trabalho</i> da disciplina <b>Laboratório de Desenvolvimento de Software</b>, tendo como propósito <b>auxiliar estudantes e profissionais de engenharia de software</b> a encontrarem <i>materiais confiáveis</i>, <i>recursos de qualidade</i> e <i>referências técnicas</i> para estudo e resolução de dúvidas. A plataforma reúne de forma <i>organizada</i> e <i>acessível</i> conteúdos selecionados, projetos de referência e documentações, promovendo o <b>compartilhamento de conhecimento</b> e facilitando o <i>aprendizado da comunidade</i>. Além disso, permite o <i>contato direto</i> com os desenvolvedores para troca de experiências e esclarecimentos. O Dev Resources demonstra a aplicação prática de <b>boas práticas de engenharia de software</b>, promovendo <i>qualidade</i>, <i>documentação técnica</i> e <i>colaboração</i> no ecossistema de desenvolvimento.
+</div>
+
+<br>
+
+<div align="left">
+  <img src="resources/logo.png" alt="Logo do projeto DevResources" width="200px"/>
+</div>
 
 ---
 
