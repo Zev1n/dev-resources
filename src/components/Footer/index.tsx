@@ -64,7 +64,7 @@ export function Footer() {
             </div>
             </div>
 
-            <div className="max-w-7xl flex flex-col sm:flex-row sm:justify-between mx-auto gap-4 sm:gap-0">
+            <div className="max-w-7xl flex flex-col sm:flex-row sm:justify-between mx-auto gap-4 sm:gap-0 my-3">
             <div className="p-4 text-sm text-gray-600">
                 &copy; {new Date().getFullYear()} DevResources. Todos os direitos reservados.
             </div>
