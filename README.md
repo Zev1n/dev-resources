@@ -1,33 +1,27 @@
-<a href="https://classroom.github.com/online_ide?assignment_repo_id=99999999&assignment_repo_type=AssignmentRepo"><img src="https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg" width="200"/></a> <a href="https://classroom.github.com/open-in-codespaces?assignment_repo_id=99999999"><img src="https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg" width="250"/></a>
-
----
-
-# Dev Resources
-
-<div align="justify">
-O <b>Dev Resources</b> é uma plataforma de <i>curadoria de recursos técnicos</i> desenvolvida por <a href="https://github.com/arturbomtempo-dev">Artur Bomtempo</a> e <a href="https://github.com/eduardavieira-dev">Eduarda Vieira</a>, estudantes do <i>quarto período</i> do curso de <b>Engenharia de Software</b> da <b>PUC Minas</b>. Este projeto representa o <i>primeiro trabalho</i> da disciplina <b>Laboratório de Desenvolvimento de Software</b>, tendo como propósito <b>auxiliar estudantes e profissionais de engenharia de software</b> a encontrarem <i>materiais confiáveis</i>, <i>recursos de qualidade</i> e <i>referências técnicas</i> para estudo e resolução de dúvidas. A plataforma reúne de forma <i>organizada</i> e <i>acessível</i> conteúdos selecionados, projetos de referência e documentações, promovendo o <b>compartilhamento de conhecimento</b> e facilitando o <i>aprendizado da comunidade</i>. Além disso, permite o <i>contato direto</i> com os desenvolvedores para troca de experiências e esclarecimentos. O Dev Resources demonstra a aplicação prática de <b>boas práticas de engenharia de software</b>, promovendo <i>qualidade</i>, <i>documentação técnica</i> e <i>colaboração</i> no ecossistema de desenvolvimento.
+<div align="center">
+  <h1>Dev Resources</h1>
+  
+  <p>
+    <img src="https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow?style=flat-square" alt="Status">
+    <img src="https://img.shields.io/badge/Versão-v1.0.0-blue?style=flat-square" alt="Versão">
+    <img src="https://img.shields.io/badge/Licença-MIT-green?style=flat-square" alt="Licença">
+  </p>
+  
+  <p>
+    <img src="https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js&logoColor=white" alt="Next.js">
+    <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
+    <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+    <img src="https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+    <img src="https://img.shields.io/badge/Node.js-22.13.1-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js">
+    <img src="https://img.shields.io/badge/Vercel-Deploy-black?style=flat-square&logo=vercel&logoColor=white" alt="Vercel">
+  </p>
 </div>
 
 <br>
 
-<div align="left">
-  <img src="resources/logo.png" alt="Logo do projeto DevResources" width="200px"/>
+<div align="justify">
+O <b>Dev Resources</b> é uma plataforma de <i>curadoria de recursos técnicos</i> desenvolvida por <a href="https://github.com/arturbomtempo-dev">Artur Bomtempo</a> e <a href="https://github.com/eduardavieira-dev">Eduarda Vieira</a>, estudantes do <i>quarto período</i> do curso de <b>Engenharia de Software</b> da <b>PUC Minas</b>. Como <i>criadores de conteúdo digital</i> apaixonados por compartilhar conhecimento, desenvolvemos este projeto com o propósito de <b>auxiliar estudantes e profissionais de engenharia de software</b> a encontrarem <i>materiais confiáveis</i>, <i>recursos de qualidade</i> e <i>referências técnicas</i> centralizadas para estudo e resolução de dúvidas. A plataforma reúne de forma <i>organizada</i> e <i>acessível</i> conteúdos selecionados, projetos de referência e documentações, promovendo o <b>compartilhamento de conhecimento</b> e facilitando o <i>aprendizado da comunidade</i>. Além disso, permite o <i>contato direto</i> com os desenvolvedores para troca de experiências e esclarecimentos. O Dev Resources demonstra a aplicação prática de <b>boas práticas de engenharia de software</b>, promovendo <i>qualidade</i>, <i>documentação técnica</i> e <i>colaboração</i> no ecossistema de desenvolvimento.
 </div>
-
----
-
-## 🚧 Status do Projeto
-
-### Exemplos de badges básicos:
-
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/joaopauloaramuni/joaopauloaramuni/main.yml?branch=main)](https://github.com/joaopauloaramuni/joaopauloaramuni/actions/workflows/main.yml)
-[![Test Coverage](https://codecov.io/gh/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/branch/main/graph/badge.svg)](https://codecov.io/gh/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software)
-[![Versão](https://img.shields.io/badge/Versão-v1.0.0-blue)](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/releases)
-[![Licença](https://img.shields.io/github/license/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software)](#licença)
-
-### Outros exemplos de badges:
-
-[![Versão](https://img.shields.io/badge/Versão-v1.0.0-blue?style=for-the-badge)](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/releases) ![React](https://img.shields.io/badge/React-19.1.1-007ec6?style=for-the-badge&logo=react&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-7.1.2-007ec6?style=for-the-badge&logo=vite&logoColor=white) ![Java](https://img.shields.io/badge/Java-17-007ec6?style=for-the-badge&logo=openjdk&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-3.9.9-007ec6?style=for-the-badge&logo=apachemaven&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.3.5-007ec6?style=for-the-badge&logo=springboot&logoColor=white) ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-3.1.1-007ec6?style=for-the-badge&logo=thymeleaf&logoColor=white) ![GitHub repo size](https://img.shields.io/github/repo-size/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software?style=for-the-badge&logo=files) ![GitHub directory file count](https://img.shields.io/github/directory-file-count/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software?style=for-the-badge&logo=files) ![GitHub stars](https://img.shields.io/github/stars/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software?style=for-the-badge&logo=github) ![GitHub forks](https://img.shields.io/github/forks/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software?style=for-the-badge&logo=git) ![GitHub language count](https://img.shields.io/github/languages/count/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software?style=for-the-badge&logo=python) ![GitHub license](https://img.shields.io/github/license/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software?style=for-the-badge&color=007ec6&logo=opensourceinitiative) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software?style=for-the-badge&color=007ec6&logo=gitkraken) ![GitHub last commit](https://img.shields.io/github/last-commit/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software?style=for-the-badge&logo=clockify) ![Vercel](https://vercelbadge.vercel.app/api/joaopauloaramuni/joaopauloaramuni-portfolio?style=for-the-badge) ![Views Counter](https://views-counter.vercel.app/badge?pageId=https%3A%2F%2Fgithub%2Ecom%2Fjoaopauloaramuni%2Flaboratorio-de-desenvolvimento-de-software&leftColor=555555&rightColor=007ec6&type=total&label=RepoViews)
 
 ---
 
@@ -41,25 +35,12 @@ O <b>Dev Resources</b> é uma plataforma de <i>curadoria de recursos técnicos</
     - [Exemplos de diagramas](#exemplos-de-diagramas)
 - [Instalação e Execução](#-instalação-e-execução)
     - [Pré-requisitos](#pré-requisitos)
-    - [Variáveis de Ambiente](#-variáveis-de-ambiente)
-        - [1 Back-end (Spring Boot)](#1-back-end-spring-boot)
-        - [2 Front-end (React, Vite)](#2-front-end-react-vite)
-        - [3 Exemplos de Variáveis de Ambiente na Vercel](#3-exemplos-de-variáveis-de-ambiente-na-vercel)
-    - [Instalação de Dependências](#-instalação-de-dependências)
-        - [Front-end (React)](#front-end-react)
-        - [Back-end (Spring Boot)](#back-end-spring-boot)
-    - [Inicialização do Banco de Dados (PostgreSQL)](#-inicialização-do-banco-de-dados-postgresql)
+    - [Instalação](#-instalação)
     - [Como Executar a Aplicação](#-como-executar-a-aplicação)
-        - [Terminal 1: Back-end (Spring Boot)](#terminal-1-back-end-spring-boot)
-        - [Terminal 2: Front-end (React, Vite)](#terminal-2-front-end-react-vite)
-        - [Execução Local Completa com Docker Compose (Incluindo Banco de Dados)](#-execução-local-completa-com-docker-compose-incluindo-banco-de-dados)
-        - [Passos para build, inicialização e execução](#-passos-para-build-inicialização-e-execução)
 - [Deploy](#-deploy)
 - [Estrutura de Pastas](#-estrutura-de-pastas)
 - [Demonstração](#-demonstração)
-    - [Aplicativo Mobile](#-aplicativo-mobile)
     - [Aplicação Web](#-aplicação-web)
-    - [Exemplo de saída no Terminal (para Back-end, API, CLI)](#-exemplo-de-saída-no-terminal-para-back-end-api-cli)
 - [Testes](#-testes)
 - [Documentações utilizadas](#-documentações-utilizadas)
 - [Autores](#-autores)
@@ -71,50 +52,28 @@ O <b>Dev Resources</b> é uma plataforma de <i>curadoria de recursos técnicos</
 
 ## 🔗 Links Úteis
 
-- 🌐 **Demo Online:** [Acesse a Aplicação Web](link-da-demo-web)
-    > 💻 **Descrição:** Link para a aplicação em ambiente de produção (Ex: hospedado na Vercel, Netlify ou AWS S3).
-- 📱 **Download Mobile:** [App Store](link-app-store) | [Google Play](link-google-play) | [APK Direto](link-para-apk-direto)
-    > 📱 **Descrição:** Links diretos para download nas lojas de aplicativos (se aplicável) e para o arquivo de instalação direta no Android (APK).
-- 📖 **Documentação:** [Leia a Wiki/Docs](link-para-docs)
-    > 📚 **Descrição:** Acesso à documentação técnica completa do projeto (Ex: Swagger/OpenAPI para API, ou Wiki interna).
+- 🎨 **Figma:** [Protótipo da Aplicação](https://www.figma.com/design/tEP7aXt6oNFQvqBiwcl7lk/Projeto-DevResources?node-id=0-1&t=vz679nUtiYQB9XzV-1)
+- 🌐 **Demo Online:** [Acesse a Aplicação Web](https://devresources-artur-eduarda.vercel.app/)
 
 ---
 
 ## 📝 Sobre o Projeto
 
-Nesta seção, descreva de forma clara e objetiva **o propósito do seu projeto**, explicando:
+O **Dev Resources** é uma plataforma de curadoria de recursos técnicos desenvolvida para resolver um problema comum entre estudantes de Engenharia de Software: a dificuldade de encontrar materiais didáticos confiáveis e de qualidade em meio à abundância de informação disponível na internet. Muitos alunos sabem que querem estudar e se aprofundar, mas não sabem por onde começar ou como filtrar conteúdos relevantes, resultando em uma sobrecarga informacional que dificulta o aprendizado.
 
-- **Por que ele existe** — qual motivação levou à sua criação.
-- **Qual problema ele resolve** — que dor, necessidade ou oportunidade ele atende.
-- **Qual o contexto** — acadêmico, profissional, pessoal, experimental, etc.
-- **Onde ele pode ser utilizado** — cenários reais ou simulados.
+Criado por estudantes de Engenharia de Software da PUC Minas apaixonados por compartilhar conhecimento, o projeto nasceu da vontade de centralizar informações relevantes e confiáveis da área em um único lugar. Como criadores de conteúdo digital, percebemos a necessidade de uma plataforma que não apenas agregasse recursos, mas que oferecesse curadoria, contexto e organização. A plataforma atende estudantes de graduação que buscam projetos de referência e materiais complementares, profissionais que desejam se atualizar, e permite que criadores de conteúdo compartilhem seus recursos e experiências com a comunidade. Além disso, facilita o contato direto entre desenvolvedores e estudantes para troca de conhecimento e esclarecimento de dúvidas.
 
-Procure responder perguntas como:
-
-- _Qual foi a ideia inicial do projeto?_
-- _O que ele entrega de valor ao usuário?_
-- _Por que alguém utilizaria ou contribuiria com esse projeto?_
-- _O que o torna relevante ou interessante?_
-
-Escreva de forma objetiva, mas completa, para que qualquer pessoa entenda rapidamente **o que é** e **por que importa**.
-
-> [!NOTE]
-> Esta seção segue boas práticas de documentação profissional e deve ser ajustada conforme o tipo e o objetivo do seu projeto.
+Ao criar uma ponte entre a abundância de informação e o aprendizado efetivo, o **Dev Resources** contribui para formar profissionais mais preparados, promovendo boas práticas de engenharia de software e uma cultura de colaboração na comunidade acadêmica.
 
 ---
 
 ## ✨ Funcionalidades Principais
 
-Liste as funcionalidades de forma clara e objetiva.
-
-- 🔐 **Autenticação Segura:** Login, Cadastro e Recuperação de Senha.
-- 📈 **Painel de Controle:** Visualização de dados em tempo real com gráficos.
-- ⚙️ **Gerenciamento de CRUD:** Criação, Leitura, Atualização e Deleção de recursos (e.g., Usuários, Itens, Posts).
-- 📊 **Relatórios Exportáveis:** Exportação de dados em PDF, CSV ou Excel.
-- 🌐 **Internacionalização (i18n):** Suporte a múltiplos idiomas.
-- 🧵 **Logs e Monitoramento:** Registro detalhado de atividades e análise de desempenho.
-- 🔄 **Integração com APIs Externas:** Conexão com serviços de terceiros (pagamentos, mapas, autenticação, etc.).
-- 📨 **Sistema de Notificações:** Envio de alertas por e-mail, push ou notificações internas.
+- 📚 **Curadoria de Recursos:** Catálogo de links úteis e confiáveis para materiais de tecnologia, documentações e referências técnicas de qualidade.
+- 💼 **Portfólio de Projetos:** Galeria de projetos desenvolvidos pelos criadores, disponíveis para consulta, inspiração e estudo de código.
+- 🔍 **Sistema de Filtragem:** Ferramentas de busca e filtros avançados para projetos e materiais, facilitando a localização de conteúdos específicos.
+- 👥 **Sobre os Desenvolvedores:** Seção dedicada às informações, trajetória e experiências dos criadores da plataforma.
+- 📧 **Página de Contato:** Canal direto de comunicação para dúvidas, sugestões e troca de conhecimento com os desenvolvedores.
 
 ---
 
@@ -142,30 +101,47 @@ As seguintes ferramentas, frameworks e bibliotecas foram utilizados na construç
 
 ## 🏗 Arquitetura
 
-Descreva aqui a **arquitetura completa do sistema**, explicando como as camadas, módulos e componentes foram organizados. Informe também **por que** essa arquitetura foi escolhida e **quais problemas ela ajuda a resolver**.
+O **Dev Resources** adota uma arquitetura moderna baseada no **Next.js 16** com **App Router**, aproveitando os recursos mais recentes do framework para criar uma aplicação web performática e escalável. A escolha dessa arquitetura foi motivada pela necessidade de oferecer uma experiência de usuário fluida, com carregamento rápido de páginas e otimização automática de recursos.
 
-Você pode incluir:
+### Visão Geral
 
-- **Visão geral da arquitetura** (ex.: camadas, módulos, microsserviços, monólito modular, hexagonal, MVC etc.)
-- **Principais componentes** e o papel de cada um
-- **Padrões de design adotados** (ex.: Repository, Service Layer, DTOs, Factory, Observer)
-- **Fluxo de dados** entre as partes do sistema
-- **Tecnologias utilizadas em cada camada**
-- **Decisões arquiteturais importantes**
-- **Trade-offs** ou limitações relevantes
+A aplicação segue o padrão de **arquitetura em camadas** do Next.js, organizando o código de forma clara e modular:
 
-### Exemplos de diagramas
+- **Camada de Apresentação (UI):** Componentes React organizados e reutilizáveis, seguindo princípios de composição e separação de responsabilidades.
+- **Camada de Roteamento:** Utiliza o App Router do Next.js para gerenciamento de rotas baseado em arquivos, com suporte a layouts aninhados e loading states.
+- **Camada de Estilização:** Tailwind CSS v4 para estilização utilitária e consistente, com componentes UI customizados baseados em shadcn/ui.
+- **Camada de Utilitários:** Funções auxiliares centralizadas para manipulação de dados e lógica compartilhada.
 
-Para melhor visualização e entendimento da estrutura do sistema, os diagramas principais estão organizados lado a lado.
+### Principais Componentes
 
-|                                                              Diagrama de Arquitetura                                                              |                                                            Detalhe da Arquitetura                                                            |
-| :-----------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                              **Visão Geral (Macro)**                                                              |                                                        **Camada de Serviço (Micro)**                                                         |
-|    <img src="https://joaopauloaramuni.github.io/image/aramunilogo.png" alt="Diagrama de Visão Geral do Sistema" width="120px" height="120px">     | <img src="https://joaopauloaramuni.github.io/image/aramunilogo.png" alt="Diagrama de Componentes ou Serviço X" width="120px" height="120px"> |
-|                                                          **Modelo de Dados (Entidades)**                                                          |                                                          **Fluxo de Autenticação**                                                           |
-| <img src="https://joaopauloaramuni.github.io/image/aramunilogo.png" alt="Diagrama de Entidade-Relacionamento (DER)" width="120px" height="120px"> |    <img src="https://joaopauloaramuni.github.io/image/aramunilogo.png" alt="Diagrama de Sequência de Login" width="120px" height="120px">    |
-|                                                            **Infraestrutura (Cloud)**                                                             |                                                           **API Gateway (Rotas)**                                                            |
-|     <img src="https://joaopauloaramuni.github.io/image/aramunilogo.png" alt="Diagrama de Deploy na AWS/Vercel" width="120px" height="120px">      |       <img src="https://joaopauloaramuni.github.io/image/aramunilogo.png" alt="Mapa de Endpoints da API" width="120px" height="120px">       |
+**App Router (`src/app/`):** Gerencia todas as rotas da aplicação seguindo a estrutura de arquivos do Next.js. Cada pasta representa uma rota:
+
+- `about/` - Página sobre os desenvolvedores
+- `contact/` - Formulário de contato
+- `experiences/` - Trajetória e experiências
+- `indications/` - Links e recursos curados
+- `projects/` - Portfólio de projetos
+
+**Componentes Reutilizáveis (`src/components/`):** Componentes modulares organizados por funcionalidade:
+
+- `Header/` e `Footer/` - Componentes de layout global
+- `Loading/` - Estados de carregamento
+- `Logo/` - Identidade visual
+- `ui/` - Biblioteca de componentes UI (buttons, inputs, etc.)
+
+**Utilitários (`src/lib/`):** Funções auxiliares para manipulação de classes CSS (clsx, tailwind-merge) e outras utilidades compartilhadas.
+
+### Decisões Arquiteturais
+
+**Next.js App Router:** Escolhido por oferecer Server Components por padrão, melhorando performance e SEO, além de simplificar o code splitting e lazy loading.
+
+**TypeScript:** Implementado para garantir type safety, melhorar a experiência de desenvolvimento e reduzir bugs em produção.
+
+**Tailwind CSS v4:** Adotado pela sua abordagem utility-first que acelera o desenvolvimento, garante consistência visual e reduz o tamanho final do CSS.
+
+**Component-Based Architecture:** Estrutura modular que facilita manutenção, testes e reuso de código, seguindo as melhores práticas do ecossistema React.
+
+**File-Based Routing:** Simplifica a estrutura do projeto e torna a navegação mais intuitiva, com rotas diretamente mapeadas para a estrutura de pastas.
 
 ---
 
@@ -173,81 +149,23 @@ Para melhor visualização e entendimento da estrutura do sistema, os diagramas 
 
 ### Pré-requisitos
 
-Certifique-se de que o usuário tenha o ambiente configurado.
-
-- **Node.js:** Versão LTS (v18.x ou superior)
+- **Node.js:** Versão LTS (v22.x ou superior)
 - **Gerenciador de Pacotes:** npm ou yarn
-- **Docker** (Opcional, mas **altamente recomendado** para rodar o Banco de Dados)
 
 ---
-
-### 🔑 Variáveis de Ambiente
-
-Crie arquivos `.env` específicos e/ou configure as variáveis de ambiente no seu sistema para cada parte da aplicação.
-
-#### Front-end (Next.js)
-
-Crie um arquivo **`.env.local`** na raiz do projeto Next.js. Use o prefixo `NEXT_PUBLIC_` para expor variáveis ao cliente.
-
-| Variável                         | Descrição                                        | Exemplo                      |
-| :------------------------------- | :----------------------------------------------- | :--------------------------- |
-| `NEXT_PUBLIC_SITE_URL`           | URL do site em produção.                         | `https://meusite.vercel.app` |
-| `NEXT_PUBLIC_EMAILJS_PUBLIC_KEY` | Chave pública para serviços de e-mail (Exemplo). | `sua_public_key_aqui`        |
-| `NEXT_PUBLIC_GOOGLE_MAPS_KEY`    | Chave de API para serviços de mapas (Opcional).  | `AIzaSy...`                  |
-
----
-
-#### Exemplos de Variáveis de Ambiente na Vercel
-
-A Vercel permite configurar variáveis no painel (Project Settings > Environment Variables).
-
-##### **Exemplo – Front-end Next.js com APIs externas**
-
-```
-NEXT_PUBLIC_API_URL=https://api.exemplo.com
-NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=G-seu_google_analytics_id_aqui
-NEXT_PUBLIC_SITE_URL=https://meu-sistema.vercel.app
-```
-
----
-
-Para adicionar essas variáveis:
-
-1.  Acesse a página de Environment Variables do seu projeto no Vercel (ex.: `https://vercel.com/<seu-usuario>/<seu-projeto>/settings/environment-variables`)
-2.  Clique em **"Add"** para adicionar cada variável com o nome e valor correspondente.
-
-Alternativamente, se estiver desenvolvendo localmente, crie um arquivo **`.env.local`** dentro da pasta **`frontend`** do seu projeto com o seguinte conteúdo:
-
-```
-# Variável essencial para conectar ao Back-end Spring Boot rodando localmente (normalmente na porta 8080)
-VITE_API_URL=http://localhost:8080/api
-
-# Variáveis para integrações externas de serviço de e-mail
-VITE_EMAILJS_SERVICE_ID=seu_service_id_aqui
-VITE_EMAILJS_TEMPLATE_ID_FOR_ME=seu_template_id_for_me_aqui
-VITE_EMAILJS_TEMPLATE_ID_FOR_SENDER=seu_template_id_for_sender_aqui
-VITE_EMAILJS_PUBLIC_KEY=sua_public_key_aqui
-
-# Outras chaves de serviço
-VITE_GOOGLE_MAPS_KEY=AIzaSy...
-```
-
-> 💡 **Localização:** Garanta que este arquivo esteja em **`/frontend/.env.local`** para que o **Vite** consiga carregá-lo e disponibilizar as variáveis para o Front-end durante o desenvolvimento.
 
 ### 📦 Instalação de Dependências
 
 Clone o repositório e instale as dependências.
 
-1.  **Clone o Repositório:**
+1. **Clone o Repositório:**
 
 ```bash
-git clone <URL_DO_SEU_REPOSITÓRIO>
-cd <pasta-do-projeto>
+git clone https://github.com/arturbomtempo-dev/dev-resources.git
+cd dev-resources
 ```
 
-2.  **Instale as Dependências (Monorepo):**
-
-Como o projeto está dividido, você precisa instalar as dependências separadamente para o Front-end (React, usando NPM/Yarn) e garantir que o Back-end (Spring Boot, usando Maven/Gradle Wrapper) tenha suas dependências resolvidas.
+2. **Instale as Dependências:**
 
 Instale as dependências do projeto Next.js:
 
@@ -273,120 +191,100 @@ yarn dev
 
 ---
 
-Instruções claras para deploy em produção.
+## 🚀 Deploy
 
-1.  **Build do Projeto:**
-Execute o build separadamente para os dois artefatos (JAR para o Back-end e arquivos estáticos para o Front-end).
+O projeto está configurado para deploy automático na Vercel:
+
+1. **Importação do Repositório:** Importe o repositório do GitHub na [Vercel](https://vercel.com)
+2. **Configuração Automática:** A Vercel detecta automaticamente o projeto Next.js e aplica as configurações necessárias
+3. **Deploy Contínuo:** Cada push na branch principal gera um novo deploy automaticamente
+
+Para testar o build de produção localmente:
 
 ```bash
-# 1. Build do Front-end (React/Vite) - Gera a pasta /dist com arquivos estáticos
-cd frontend
 npm run build
-
-# 2. Build do Back-end (Spring Boot/Maven) - Gera o arquivo .jar executável em /target
-cd ../backend
-./mvnw clean package
-```
-
-2.  **Configuração do Ambiente de Produção:** Defina as variáveis de ambiente no seu provedor (e.g., Vercel, Railway, Heroku, DigitalOcean).
-
-> 🔑 **Variáveis Cruciais:** Certifique-se de configurar as variáveis de **conexão com o banco de dados** (`SPRING_DATASOURCE_URL`, etc.) para o Back-end e a **URL da API de produção** (`VITE_API_URL`) para o Front-end.
-
-3.  **Execução em Produção:**
-A forma de execução depende do seu provedor, mas geralmente envolve o seguinte:
-
-```bash
-# ☕ Execução do Back-end Spring Boot (Java JAR)
-# Este comando inicia a API usando o artefato JAR gerado.
-java -jar backend/target/nome-do-do-projeto-0.0.1-SNAPSHOT.jar
-
-# 🟢 Execução do Front-end (React/Vite)
-# O Front-end (arquivos estáticos) não é executado via Node, mas servido por um servidor web.
-# Exemplo de servidor de arquivos estáticos (usando Nginx, Vercel, Netlify, etc.)
-# Para simular a produção localmente ou rodar em uma VPS simples, use o pacote 'serve':
-npm install -g serve
-serve -s frontend/dist
+npm start
 ```
 
 ---
 
-## 📂 Estrutura de Pastas
+### 📂 Estrutura de Pastas
 
-Descreva o propósito das pastas principais.
+A estrutura do projeto segue as convenções do Next.js 16 com App Router, organizando código, componentes e recursos de forma clara e escalável.
 
 ```
 .
-├── .editorconfig                # ✍️ Padronização de estilo de código.
-├── .env.local                   # 🔒 Variáveis SENSÍVEIS do ambiente LOCAL (não versionado).
-├── .env.test                    # 🧪 Variáveis de ambiente para TESTES AUTOMATIZADOS.
-├── .env.staging                 # ☁️ Variáveis de ambiente para STAGING/HOMOLOGAÇÃO.
-├── .env.example                 # 🧩 Exemplo de TODAS as variáveis necessárias (sem valores sensíveis).
-├── .gitignore                   # 🧹 Ignora arquivos/pastas não versionadas (.env, node_modules, target, etc.).
-├── .vscode/                     # ⚙️ Configurações de ambiente da IDE (opcional).
-├── .github/                     # 🤖 CI/CD (Actions), templates de Issues e Pull Requests.
-├── README.md                    # 📘 Documentação principal do projeto.
-├── CONTRIBUTING.md              # 🤝 Guia de contribuição.
-├── LICENSE                      # ⚖️ Licença do projeto.
-├── docker-compose.yml           # 🐳 Orquestração dos containers (front/back/db/etc).
-├── docker-compose.override.yml  # 🐳 Configurações extras apenas para desenvolvimento.
+├── .gitignore                   # 🧹 Arquivos e pastas ignorados pelo Git
+├── .prettierrc                  # 🎨 Configuração do Prettier para formatação de código
+├── .vscode/                     # ⚙️ Configurações do VS Code (opcional)
+├── README.md                    # 📘 Documentação principal do projeto
+├── components.json              # 🧩 Configuração do shadcn/ui
+├── eslint.config.mjs            # ✨ Configuração do ESLint para qualidade de código
+├── next.config.ts               # ⚙️ Configurações do Next.js
+├── next-env.d.ts                # 📝 Tipos TypeScript do Next.js
+├── package.json                 # 📦 Dependências e scripts do projeto
+├── package-lock.json            # 🔒 Lockfile das dependências
+├── postcss.config.mjs           # 🎨 Configuração do PostCSS
+├── tsconfig.json                # 📘 Configuração do TypeScript
 │
-├── /frontend                    # 📁 Aplicação React
-│   ├── .env.example             # 🧩 Variáveis de ambiente do Front-end.
-│   ├── Dockerfile               # 🐳 Docker build do Front-end.
-│   ├── .eslintrc.js             # ✨ Regras do ESLint.
-│   ├── .prettierrc              # 🎨 Configuração do Prettier.
-│   ├── /public                  # 📂 Arquivos estáticos e index.html.
-│   ├── /src                     # 📂 Código-fonte React
-│   │   ├── /components          # 🧱 Componentes reutilizáveis (UI).
-│   │   ├── /pages               # 📄 Páginas/rotas da aplicação.
-│   │   ├── /services            # 🔌 Serviços e chamadas HTTP.
-│   │   ├── /hooks               # 🎣 Hooks personalizados.
-│   │   ├── /styles              # 🎨 Estilos globais, temas, Design System.
-│   │   ├── /assets              # 🖼️ Recursos estáticos importados
-│   │   │   ├── /images          # 🖼️ Imagens.
-│   │   │   ├── /icons           # 💡 Ícones.
-│   │   │   └── /fonts           # ✒️ Fontes personalizadas.
-│   │   └── /utils               # 🛠️ Funções utilitárias.
-│   ├── package.json             # 📦 Dependências e scripts.
-│   └── yarn.lock / package-lock.json # 🔒 Lockfile das dependências.
+├── /public                      # 📂 Arquivos estáticos públicos
+│   ├── file.svg                 # 🖼️ Ícones e SVGs
+│   ├── globe.svg
+│   ├── next.svg
+│   ├── vercel.svg
+│   └── window.svg
 │
-├── /backend                     # 📁 Aplicação Spring Boot
-│   ├── .env.example             # 🧩 Variáveis de ambiente do Back-end.
-│   ├── Dockerfile               # 🐳 Docker build do Back-end.
-│   │
-│   ├── /src/main/java           # 📂 Código-fonte Java
-│   │   └── /com/exemplo/app
-│   │       ├── /controller      # 🎮 Endpoints REST.
-│   │       ├── /service         # ⚙️ Regras e lógica de negócio.
-│   │       ├── /repository      # 🗄️ Repositórios (JPA/Hibernate).
-│   │       ├── /model           # 🧬 Entidades persistentes (JPA).
-│   │       ├── /domain          # 🌐 Objetos de Domínio puro (sem anotações).
-│   │       ├── /dto             # ✉️ Data Transfer Objects.
-│   │       ├── /config          # 🔧 Configurações gerais (DB, Swagger, CORS, etc.).
-│   │       ├── /exception       # 💥 Exceptions e handlers globais.
-│   │       └── /security        # 🛡️ Autenticação e Autorização (Spring Security).
-│   │
-│   ├── /src/main/resources      # 📂 Recursos do Spring Boot
-│   │   ├── application.yml         # ⚙️ Configuração principal da aplicação
-│   │   ├── application-dev.yml     # 🧪 Configurações específicas do ambiente de DESENVOLVIMENTO
-│   │   ├── application-prod.yml    # 🚀 Configurações específicas para PRODUÇÃO
-│   │   ├── application-test.yml    # 🧪 Configurações usadas nos testes automatizados
-│   │   ├── /static                # 🌐 Arquivos estáticos (HTML/CSS/JS).
-│   │   ├── /templates             # 🖼️ Templates Thymeleaf/Freemarker.
-│   │   ├── /messages              # 🌎 Arquivos de internacionalização (i18n).
-│   │   └── /db                    # 💾 Scripts de banco usados pela aplicação
-│   │       └── /migration         # 📜 Migrações do banco (Flyway/Liquibase).
-│   │
-│   ├── /src/test/java            # 🧪 Testes unitários e de integração.
-│   └── pom.xml / build.gradle    # 🛠️ Build e dependências.
+├── /resources                   # 📂 Recursos do projeto
+│   ├── logo.png                 # 🖼️ Logo da plataforma
+│   └── /prototype               # 📸 Screenshots do protótipo Figma
+│       ├── Contato.png
+│       ├── Erro404.png
+│       ├── Experiencias.png
+│       ├── Home.png
+│       ├── Indicacoes.png
+│       ├── Projetos.png
+│       └── SobreNos.png
 │
-├── /scripts                      # 📜 Scripts de automação
-│   ├── dev.sh                    # 🚀 Ambiente de desenvolvimento completo.
-│   ├── build_all.sh              # 🛠️ Build geral (front + back).
-│   └── deploy.sh                 # ☁️ Deploy em produção/homologação.
-│
-├── /docs                         # 📚 Documentação, arquitetura, modelos C4, Swagger/OpenAPI.
-└── /tests                        # 🧪 Testes End-to-End (Cypress/Playwright).
+└── /src                         # 📂 Código-fonte da aplicação
+    │
+    ├── /app                     # 📂 App Router (rotas e layouts)
+    │   ├── globals.css          # 🎨 Estilos globais da aplicação
+    │   ├── Grainient.tsx        # 🎨 Componente de efeito visual de fundo
+    │   ├── layout.tsx           # 📐 Layout raiz da aplicação
+    │   ├── template.tsx         # 📄 Template compartilhado
+    │   ├── page.tsx             # 🏠 Página inicial (Home)
+    │   ├── loading.tsx          # ⏳ Estado de carregamento global
+    │   ├── not-found.tsx        # 🔍 Página de erro 404
+    │   │
+    │   ├── /about               # 📂 Rota /about
+    │   │   └── page.tsx         # 📄 Página sobre os desenvolvedores
+    │   │
+    │   ├── /contact             # 📂 Rota /contact
+    │   │   └── page.tsx         # 📄 Página de contato
+    │   │
+    │   ├── /experiences         # 📂 Rota /experiences
+    │   │   └── page.tsx         # 📄 Página de experiências
+    │   │
+    │   ├── /indications         # 📂 Rota /indications
+    │   │   └── page.tsx         # 📄 Página de indicações/recursos
+    │   │
+    │   └── /projects            # 📂 Rota /projects
+    │       └── page.tsx         # 📄 Página de projetos
+    │
+    ├── /components              # 📂 Componentes React reutilizáveis
+    │   ├── /Footer              # 🦶 Componente de rodapé
+    │   │   └── index.tsx
+    │   ├── /Header              # 📌 Componente de cabeçalho/navegação
+    │   │   └── index.tsx
+    │   ├── /Loading             # ⏳ Componente de loading
+    │   │   └── index.tsx
+    │   ├── /Logo                # 🎨 Componente do logo
+    │   │   └── index.tsx
+    │   └── /ui                  # 🧩 Componentes UI (shadcn/ui)
+    │       └── button.tsx       # 🔘 Componente de botão
+    │
+    └── /lib                     # 📂 Utilitários e helpers
+        └── utils.ts             # 🛠️ Funções auxiliares (clsx, tw-merge, etc.)
 ```
 
 ---
@@ -397,15 +295,6 @@ Use GIFs e prints para mostrar o projeto em ação.
 
 > [!WARNING]
 > Dê preferência a hospedar suas imagens em um **CDN** (Content Delivery Network) ou no **GitHub Pages** para garantir que elas carreguem rapidamente e não quebrem. Saiba mais sobre o GitHub Pages clicando [aqui](https://github.com/joaopauloaramuni/joaopauloaramuni.github.io).
-
-### 📱 Aplicativo Mobile
-
-- GIF de demonstração (exemplo de fluxo de usuário):
-
-| Demonstração 1                                                                                                   | Demonstração 2                                                                                                   | Demonstração 3                                                                                                   | Demonstração 4                                                                                                   |
-| ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| <img src="https://joaopauloaramuni.github.io/image/fundo_mobile_engsoft.jpeg" alt="Demonstração 1" height="400"> | <img src="https://joaopauloaramuni.github.io/image/fundo_mobile_engsoft.jpeg" alt="Demonstração 2" height="400"> | <img src="https://joaopauloaramuni.github.io/image/fundo_mobile_engsoft.jpeg" alt="Demonstração 3" height="400"> | <img src="https://joaopauloaramuni.github.io/image/fundo_mobile_engsoft.jpeg" alt="Demonstração 4" height="400"> |
-| _Sua gif aqui_                                                                                                   | _Sua gif aqui_                                                                                                   | _Sua gif aqui_                                                                                                   | _Sua gif aqui_                                                                                                   |
 
 ### 🌐 Aplicação Web
 
@@ -421,63 +310,6 @@ Para melhor visualização, as telas principais estão organizadas lado a lado.
 |     <img src="./resources/prototype/Projetos.png" alt="Tela de Projetos" width="400px">      |      <img src="./resources/prototype/Contato.png" alt="Tela de Contato" width="400px">      |
 |                                         **Erro 404**                                         |                                                                                             |
 |     <img src="./resources/prototype/Erro404.png" alt="Página de Erro 404" width="400px">     |                                                                                             |
-
-### 💻 Exemplo de Saída no Terminal (para Back-end, API, CLI)
-
-Caso o projeto seja focado em serviços de Back-end (API, microserviço, CLI), utilize esta seção para demonstrar a interação com o sistema e a resposta esperada.
-
-#### 1. Demonstração da API (Exemplo com cURL)
-
-Mostra uma chamada simples para um endpoint da API (ex: GET de listagem).
-
-```bash
-# Chama o endpoint de listagem de usuários com o token de autenticação
-curl -X GET 'http://localhost:3000/api/v1/users' \
-     -H 'Authorization: Bearer <seu-jwt-token>'
-```
-
-**Saída Esperada:**
-
-```json
-{
-    "total": 2,
-    "users": [
-        {
-            "id": "1a2b3c",
-            "name": "Prof. Aramuni",
-            "email": "contato@exemplo.com",
-            "status": "active"
-        },
-        {
-            "id": "4d5e6f",
-            "name": "Colaborador Teste",
-            "email": "teste@exemplo.com",
-            "status": "inactive"
-        }
-    ]
-}
-```
-
----
-
-#### 2. Demonstração de Execução de CLI/Script
-
-Mostra como executar uma ferramenta de linha de comando ou um script de manutenção do projeto (ex: rodar migrações ou um job agendado).
-
-```bash
-# Executa a ferramenta de validação de Schema
-npm run cli validate:schema --target=production
-```
-
-**Saída Esperada:**
-
-```text
-[INFO] Iniciando validação do banco de dados...
-[SUCCESS] 15/15 tabelas verificadas.
-[WARNING] Coluna 'descricao' na tabela 'produtos' é nullable.
-[SUCCESS] Validação concluída. Nenhum erro crítico encontrado.
-Tempo de execução: 1.25s
-```
 
 ---
 
@@ -507,14 +339,11 @@ _Ferramenta utilizada: Cypress, Playwright, Selenium, etc._
 
 ## 🔗 Documentações utilizadas
 
-Liste aqui links para documentação técnica, referências de bibliotecas complexas ou guias de estilo que foram cruciais para o projeto.
-
-- 📖 **Framework/Biblioteca (Front-end):** [Documentação Oficial do **React**](https://react.dev/reference/react)
-- 📖 **Build Tool (Front-end):** [Guia de Configuração do **Vite**](https://vitejs.dev/config/)
-- 📖 **Framework (Back-end):** [Documentação Oficial do **Spring Boot**](https://docs.spring.io/spring-boot/docs/current/reference/html/)
-- 📖 **Containerização:** [Documentação de Referência do **Docker**](https://docs.docker.com/)
-- 📖 **Guia de Estilo:** [**Conventional Commits** (Padrão de Mensagens)](https://www.conventionalcommits.org/en/v1.0.0/)
-- 📖 **Documentação Interna:** [Design System do Projeto](./docs/design-system.md)
+- 📖 **Next.js:** [Documentação Oficial do Next.js](https://nextjs.org/docs)
+- 📖 **React:** [Documentação Oficial do React](https://react.dev/reference/react)
+- 📖 **TypeScript:** [Documentação do TypeScript](https://www.typescriptlang.org/docs/)
+- 📖 **Tailwind CSS:** [Documentação do Tailwind CSS](https://tailwindcss.com/docs)
+- 📖 **Vercel:** [Documentação de Deploy da Vercel](https://vercel.com/docs)
 
 ---
 
@@ -563,6 +392,6 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 
 ## 📄 Licença
 
-Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
+Este projeto é distribuído sob a **[Licença MIT](https://github.com/arturbomtempo-dev/dev-resources/blob/main/LICENSE)**.
 
 ---
