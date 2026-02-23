@@ -13,7 +13,7 @@
     </td>
     <td>
       <div>
-        <img src="./resources/logo.png" alt="Logo do Dev Resources" />
+        <img src="./resources/logo.png" alt="Logo do projeto DevResources" width="120px"/>
       </div>
     </td>
   </tr> 
