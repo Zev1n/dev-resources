@@ -213,7 +213,7 @@ npm start
 A estrutura do projeto segue as convenções do Next.js 16 com App Router, organizando código, componentes e recursos de forma clara e escalável.
 
 ```
-.
+dev-resources/
 ├── .gitignore                   # 🧹 Arquivos e pastas ignorados pelo Git
 ├── .prettierrc                  # 🎨 Configuração do Prettier para formatação de código
 ├── .vscode/                     # ⚙️ Configurações do VS Code (opcional)
