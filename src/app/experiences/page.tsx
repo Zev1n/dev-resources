@@ -1,3 +1,9 @@
+import { SectionContainer } from '@/components/SectionContainer';
+
 export default function Experiences() {
-    return <h1>Experiências</h1>;
+    return (
+        <SectionContainer>
+            <h1>Experiências</h1>
+        </SectionContainer>
+    );
 }
