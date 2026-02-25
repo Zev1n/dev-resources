@@ -1,4 +1,4 @@
-import type { GrainientUniforms } from '../Grainient/interfaces/grainientUniforms';
+import type { GrainientUniforms } from '../interfaces/grainientUniforms';
 
 export const DEFAULT_GRAINIENT_VALUES: GrainientUniforms = {
     timeSpeed: 0.25,

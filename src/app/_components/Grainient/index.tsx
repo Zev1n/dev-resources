@@ -1,7 +1,7 @@
 'use client';
 
 import { useRef } from 'react';
-import { DEFAULT_GRAINIENT_VALUES } from '../constants/grainient.constants';
+import { DEFAULT_GRAINIENT_VALUES } from './constants/grainient.constants';
 import { useWebGLRenderer } from './hooks/useWebGLRenderer';
 
 export interface GrainientProps {
