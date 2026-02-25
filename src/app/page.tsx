@@ -2,7 +2,13 @@
 
 import { Title } from '@/components/Title';
 import { Button } from '@/components/ui/button';
-import { ArrowRightIcon } from '@phosphor-icons/react';
+import {
+    ArrowRightIcon,
+    ChatIcon,
+    FolderOpenIcon,
+    LinkSimpleHorizontalIcon,
+    UsersIcon,
+} from '@phosphor-icons/react';
 import { ContentCard } from './_components/ContentCard';
 import { Grainient } from './_components/Grainient';
 
@@ -84,8 +90,27 @@ export default function Home() {
                         selecionados.
                     </p>
                 </div>
-                <div>
-                    <ContentCard />
+                <div className="mx-auto mt-8 grid max-w-7xl gap-4 px-4 sm:grid-cols-2 lg:grid-cols-4">
+                    <ContentCard
+                        icon={LinkSimpleHorizontalIcon}
+                        title="Curadoria de Links"
+                        description="Indicações de sites, ferramentas e recursos selecionados."
+                    />
+                    <ContentCard
+                        icon={FolderOpenIcon}
+                        title="Projetos em Conjunto"
+                        description="Portfólio colaborativo com projetos desenvolvidos pela equipe."
+                    />
+                    <ContentCard
+                        icon={UsersIcon}
+                        title="Sobre Nós"
+                        description="Conheça Eduarda e Arthur, os criadores do DevResources."
+                    />
+                    <ContentCard
+                        icon={ChatIcon}
+                        title="Contato"
+                        description="Entre em contato conosco para sugestões ou colaboração."
+                    />
                 </div>
             </section>
         </>
