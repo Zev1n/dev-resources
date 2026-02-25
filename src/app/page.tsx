@@ -3,6 +3,7 @@
 import { Title } from '@/components/Title';
 import { Button } from '@/components/ui/button';
 import { ArrowRightIcon } from '@phosphor-icons/react';
+import { ContentCard } from './_components/ContentCard';
 import { Grainient } from './_components/Grainient';
 
 export default function Home() {
@@ -82,6 +83,9 @@ export default function Home() {
                         Explore nossas seções e descubra recursos <br /> cuidadosamente
                         selecionados.
                     </p>
+                </div>
+                <div>
+                    <ContentCard />
                 </div>
             </section>
         </>
