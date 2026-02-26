@@ -5,14 +5,14 @@ import { Pills } from '../Pills';
 
 export type ExperienceCategory = 'Acadêmica' | 'Profissional' | 'Projetos' | 'Evento';
 
-type ExperienceCardProps = {
+interface ExperienceCardProps {
     title: string;
     organization: string;
     period: string;
     category: ExperienceCategory;
     icon: Icon;
     showLine?: boolean;
-};
+}
 
 const categoryClasses: Record<ExperienceCategory, string> = {
     Acadêmica: 'border-sky-500 bg-sky-50 text-sky-500',

@@ -1,11 +1,11 @@
 import { cn } from '@/lib/utils';
 
-type PillsProps = {
+interface PillsProps {
     text: string;
     className?: string;
     onClick?: () => void;
     isActive?: boolean;
-};
+}
 
 export function Pills({ text, className, onClick, isActive = false }: PillsProps) {
     const baseClasses =
