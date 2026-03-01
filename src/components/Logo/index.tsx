@@ -24,9 +24,9 @@ export function Logo({ size, variant = 'default' }: LogoProps) {
         >
             <CodeIcon className={isLight ? 'text-white' : 'text-blue-primary'} />
             <h1>
-                Dev
+                Portifólio
                 <span className={isLight ? 'text-white' : 'font-display text-blue-primary'}>
-                    Resources
+                    Henrique
                 </span>
             </h1>
         </div>

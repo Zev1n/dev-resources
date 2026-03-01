@@ -1,5 +1,6 @@
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
+import { LanguageProvider } from '@/contexts/LanguageContext';
 import type { Metadata } from 'next';
 import { Inter, Manrope } from 'next/font/google';
 import './globals.css';
@@ -27,14 +28,14 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="pt-BR">
-            <body
-                className={`${inter.variable} ${manrope.variable} flex min-h-screen flex-col antialiased`}
-            >
-                <Header />
-                <main className="flex-1">{children}</main>
-                <Footer />
-            </body>
-        </html>
-    );
+  <html lang="pt-BR" className="dark">
+    <body className={`${inter.variable} ${manrope.variable} flex min-h-screen flex-col antialiased`}>
+      <LanguageProvider>
+        <Header />
+        <main className="flex-1 bg-background">{children}</main>
+        <Footer />
+      </LanguageProvider>
+    </body>
+  </html>
+);
 }

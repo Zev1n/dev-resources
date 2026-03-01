@@ -9,7 +9,7 @@ import { ListIcon, XIcon } from '@phosphor-icons/react';
 const navLinks = [
     { href: '/', label: 'Home' },
     { href: '/indications', label: 'Indicações' },
-    { href: '/about', label: 'Sobre nós' },
+    { href: '/about', label: 'Sobre mim' },
     { href: '/projects', label: 'Projetos' },
     { href: '/experiences', label: 'Experiencias' },
     { href: '/contact', label: 'Contato' },
@@ -40,8 +40,8 @@ export function Header() {
     return (
         <header
             className={`fixed top-0 right-0 left-0 z-50 transition-all duration-300 ${
-                isScrolled ? 'bg-white shadow-sm' : 'bg-transparent'
-            }`}
+  isScrolled ? 'bg-background/80 backdrop-blur-md border-b border-border' : 'bg-transparent'
+}`}
         >
             <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:justify-around">
                 <Link href="/">
@@ -57,7 +57,7 @@ export function Header() {
                                 className={`group inline-flex flex-col items-center font-medium transition-colors duration-300 ${
                                     isTransparent
                                         ? 'text-white/80 hover:text-white'
-                                        : 'text-neutral-500 hover:text-black'
+                                        : 'text-muted-foreground hover:text-foreground'
                                 }`}
                             >
                                 <span
@@ -65,7 +65,7 @@ export function Header() {
                                         isActive
                                             ? isTransparent
                                                 ? 'text-white'
-                                                : 'text-black'
+                                                : 'text-foreground'
                                             : ''
                                     }
                                 >

@@ -1,118 +1,188 @@
 'use client';
 
-import { Title } from '@/components/Title';
-import { Button } from '@/components/ui/button';
-import {
-    ArrowRightIcon,
-    ChatIcon,
-    FolderOpenIcon,
-    LinkSimpleHorizontalIcon,
-    UsersIcon,
-} from '@phosphor-icons/react';
-import { ContentCard } from './_components/ContentCard';
-import { Grainient } from './_components/Grainient';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function Home() {
-    return (
-        <>
-            <section>
-                <div
-                    style={{
-                        width: '100%',
-                        height: '100vh',
-                        position: 'relative',
-                        overflow: 'hidden',
-                    }}
+  const { language, setLanguage } = useLanguage();
+
+  const t = {
+    pt: {
+      navCta: 'Sobre mim',
+      title: 'Olá, sou Henrique Azevedo',
+      subtitle:
+        'Desenvolvedor Salesforce (Pleno) na Belgo Arames, com foco em Sales Cloud, Apex e Flows.',
+      aboutTitle: 'Sobre mim',
+      aboutText:
+        'Atuo no CRM da Belgo Arames desenvolvendo soluções escaláveis com Sales Cloud, Apex e Flows. Tenho +100.000 pontos no Trailhead e também desenvolvo como Full Stack, com backend em Java e frontend em HTML, CSS e JavaScript/React.',
+      interestsTitle: 'Áreas de interesse',
+      stacksTitle: 'Stacks e ferramentas',
+      footerNote: '© 2026 Henrique Azevedo. Todos os direitos reservados.',
+      pt: 'Português',
+      en: 'Inglês',
+    },
+    en: {
+      navCta: 'About me',
+      title: "Hi, I'm Henrique Azevedo",
+      subtitle:
+        'Mid-level Salesforce Developer at Belgo Arames, focused on Sales Cloud, Apex and Flows.',
+      aboutTitle: 'About me',
+      aboutText:
+        'I work on Belgo Arames CRM building scalable solutions with Sales Cloud, Apex and Flows. I have 100,000+ Trailhead points and I also build Full Stack projects with Java backend and HTML/CSS/JavaScript (React) frontend.',
+      interestsTitle: 'Areas of interest',
+      stacksTitle: 'Stacks & tools',
+      footerNote: '© 2026 Henrique Azevedo. All rights reserved.',
+      pt: 'Portuguese',
+      en: 'English',
+    },
+  }[language];
+
+  const interests =
+    language === 'en'
+      ? [
+          'Sales Cloud',
+          'Apex',
+          'Flows',
+          'Integrations',
+          'Java',
+          'React',
+          'CRM Architecture',
+          'Performance',
+        ]
+      : [
+          'Sales Cloud',
+          'Apex',
+          'Flows',
+          'Integrações',
+          'Java',
+          'React',
+          'Arquitetura CRM',
+          'Performance',
+        ];
+
+  const stacks = [
+    'Salesforce',
+    'Apex',
+    'Flows',
+    'Java',
+    'React',
+    'TypeScript',
+    'PostgreSQL',
+    'GitHub',
+  ];
+
+  return (
+    <div className="min-h-[calc(100vh-80px)] bg-[#0b1d3a] text-white">
+      {/* HERO */}
+      <section className="relative flex min-h-[70vh] items-center justify-center overflow-hidden px-6">
+        <div className="pointer-events-none absolute inset-0 opacity-60">
+          <div className="h-full w-full bg-[radial-gradient(circle_at_20%_30%,rgba(255,255,255,0.35)_1px,transparent_1px),radial-gradient(circle_at_60%_20%,rgba(255,255,255,0.25)_1px,transparent_1px),radial-gradient(circle_at_80%_60%,rgba(255,255,255,0.2)_1px,transparent_1px)] bg-[length:140px_140px,220px_220px,180px_180px]" />
+        </div>
+
+        <div className="relative max-w-3xl text-center">
+          <h1 className="text-4xl font-semibold md:text-5xl">{t.title}</h1>
+          <p className="mx-auto mt-4 max-w-xl text-white/80">{t.subtitle}</p>
+
+          <div className="mt-8 flex justify-center">
+            <a
+              href="/about"
+              className="inline-flex items-center gap-2 rounded-lg bg-white px-6 py-3 text-sm font-medium text-[#0b1d3a] transition hover:bg-white/90"
+            >
+              {t.navCta}
+              <span aria-hidden>→</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* CARDS */}
+      <section className="border-t border-white/5 bg-[#0a1730] py-14">
+        <div className="mx-auto grid max-w-6xl gap-6 px-6 md:grid-cols-2">
+          {/* Card Sobre */}
+          <div className="rounded-2xl bg-[#2b3445]/70 p-8 shadow-[0_0_0_1px_rgba(255,255,255,0.08)]">
+            <div className="mb-5 flex gap-2">
+              <span className="h-3 w-3 rounded-full bg-red-500/80" />
+              <span className="h-3 w-3 rounded-full bg-yellow-400/80" />
+              <span className="h-3 w-3 rounded-full bg-green-500/80" />
+            </div>
+
+            <h2 className="text-2xl font-semibold">{t.aboutTitle}</h2>
+            <p className="mt-4 text-white/75">{t.aboutText}</p>
+
+            <div className="mt-6">
+              <p className="text-sm font-semibold text-white/80">
+                {t.interestsTitle}
+              </p>
+
+              <div className="mt-3 flex flex-wrap gap-2">
+                {/* Badge especial */}
+                <span className="rounded-full bg-[#00a6f4]/20 px-3 py-1 text-xs text-[#9ce1ff] shadow-[0_0_0_1px_rgba(0,166,244,0.35)]">
+                  🏆 100k+ Trailhead
+                </span>
+
+                {interests.map((item) => (
+                  <span
+                    key={item}
+                    className="rounded-full bg-white/10 px-3 py-1 text-xs text-white/80"
+                  >
+                    {item}
+                  </span>
+                ))}
+              </div>
+
+              {/* Botões idioma */}
+              <div className="mt-6 grid grid-cols-2 gap-3">
+                <button
+                  onClick={() => setLanguage('pt')}
+                  className={`rounded-lg px-4 py-3 text-sm font-medium transition ${
+                    language === 'pt'
+                      ? 'bg-[#00a6f4] text-white'
+                      : 'bg-white/10 text-white/80 hover:bg-white/15'
+                  }`}
                 >
-                    <Grainient
-                        color1="#1789ba"
-                        color2="#70a9cd"
-                        color3="#a7d3ae"
-                        timeSpeed={3.25}
-                        colorBalance={0}
-                        warpStrength={1}
-                        warpFrequency={0}
-                        warpSpeed={2}
-                        warpAmplitude={50}
-                        blendAngle={0}
-                        blendSoftness={0.05}
-                        rotationAmount={500}
-                        noiseScale={2}
-                        grainAmount={0.1}
-                        grainScale={2}
-                        grainAnimated={false}
-                        contrast={1.5}
-                        gamma={1}
-                        saturation={1}
-                        centerX={0}
-                        centerY={0}
-                        zoom={0.9}
-                    />
-                    <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-                        <div className="mx-3 max-w-2xl text-center">
-                            <h1 className="mb-8 text-4xl font-semibold md:text-5xl">
-                                Um hub colaborativo de
-                                <span className="text-teal-200/90"> curadoria digital</span>,
-                                projetos e experiências em tecnologia.
-                            </h1>
+                  {t.pt}
+                </button>
 
-                            <p className="mb-8 text-lg text-white/80">
-                                Centraliza indicações, ferramentas, materiais de estudo e apresenta
-                                projetos desenvolvidos em conjunto.
-                            </p>
+                <button
+                  onClick={() => setLanguage('en')}
+                  className={`rounded-lg px-4 py-3 text-sm font-medium transition ${
+                    language === 'en'
+                      ? 'bg-[#00a6f4] text-white'
+                      : 'bg-white/10 text-white/80 hover:bg-white/15'
+                  }`}
+                >
+                  {t.en}
+                </button>
+              </div>
+            </div>
+          </div>
 
-                            <div className="flex justify-center gap-2">
-                                <Button
-                                    className="cursor-pointer gap-2 rounded-lg bg-linear-to-r from-teal-600 to-teal-500 text-white transition-colors duration-300 ease-in-out hover:from-teal-700 hover:to-teal-600"
-                                    size="lg"
-                                >
-                                    Explorar indicações
-                                    <ArrowRightIcon size={32} />
-                                </Button>
+          {/* Card Stacks */}
+          <div className="rounded-2xl bg-[#2b3445]/70 p-8 shadow-[0_0_0_1px_rgba(255,255,255,0.08)]">
+            <div className="mb-5 flex gap-2">
+              <span className="h-3 w-3 rounded-full bg-red-500/80" />
+              <span className="h-3 w-3 rounded-full bg-yellow-400/80" />
+              <span className="h-3 w-3 rounded-full bg-green-500/80" />
+            </div>
 
-                                <Button
-                                    variant="outline"
-                                    className="shadow-teal-400-md cursor-pointer rounded-lg border border-teal-600 bg-white text-teal-600 transition-colors duration-300 ease-in-out hover:border-white hover:bg-teal-300/20 hover:text-white"
-                                    size="lg"
-                                >
-                                    Conhecer o Projeto
-                                </Button>
-                            </div>
-                        </div>
-                    </div>
+            <h2 className="text-2xl font-semibold">{t.stacksTitle}</h2>
+
+            <div className="mt-6 grid grid-cols-2 gap-4">
+              {stacks.map((tool) => (
+                <div
+                  key={tool}
+                  className="rounded-xl bg-white/5 px-4 py-4 text-sm text-white/85 shadow-[0_0_0_1px_rgba(255,255,255,0.06)]"
+                >
+                  {tool}
                 </div>
-            </section>
-            <section className="my-30 flex flex-col justify-center">
-                <div className="text-center">
-                    <Title text="O que você encontra aqui" />
-                    <p className="text-subheading text-lg font-normal">
-                        Explore nossas seções e descubra recursos <br /> cuidadosamente
-                        selecionados.
-                    </p>
-                </div>
-                <div className="mx-auto mt-8 grid max-w-7xl gap-4 px-4 sm:grid-cols-2 lg:grid-cols-4">
-                    <ContentCard
-                        icon={LinkSimpleHorizontalIcon}
-                        title="Curadoria de Links"
-                        description="Indicações de sites, ferramentas e recursos selecionados."
-                    />
-                    <ContentCard
-                        icon={FolderOpenIcon}
-                        title="Projetos em Conjunto"
-                        description="Portfólio colaborativo com projetos desenvolvidos pela equipe."
-                    />
-                    <ContentCard
-                        icon={UsersIcon}
-                        title="Sobre Nós"
-                        description="Conheça Eduarda e Artur, os criadores do DevResources."
-                    />
-                    <ContentCard
-                        icon={ChatIcon}
-                        title="Contato"
-                        description="Entre em contato conosco para sugestões ou colaboração."
-                    />
-                </div>
-            </section>
-        </>
-    );
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <p className="mx-auto mt-10 max-w-6xl px-6 text-center text-xs text-white/50">
+          {t.footerNote}
+        </p>
+      </section>
+    </div>
+  );
 }
