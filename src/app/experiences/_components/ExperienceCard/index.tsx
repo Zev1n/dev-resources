@@ -15,10 +15,10 @@ interface ExperienceCardProps {
 }
 
 const categoryClasses: Record<ExperienceCategory, string> = {
-    Acadêmica: 'border-sky-500 bg-sky-50 text-sky-500',
-    Profissional: 'border-green-600 bg-green-50 text-green-600',
-    Projetos: 'border-teal-600 bg-teal-50 text-teal-600',
-    Evento: 'border-orange-500 bg-orange-50 text-orange-500',
+    Acadêmica: 'border-sky-500 bg-sky-900 text-sky-500',
+    Profissional: 'border-green-500 bg-green-900 text-green-500',
+    Projetos: 'border-teal-500 bg-teal-900 text-teal-500',
+    Evento: 'border-orange-500 bg-orange-900 text-orange-500',
 };
 
 export function ExperienceCard({
@@ -38,17 +38,17 @@ export function ExperienceCard({
                     <CardIcon size={16} weight="regular" />
                 </div>
                 {showLine && (
-                    <span className="absolute top-9 h-[calc(100%+1rem)] w-px bg-gray-300 md:top-10" />
+                    <span className="absolute top-9 h-[calc(100%+1rem)] w-px bg-gray-600 md:top-10" />
                 )}
             </div>
 
-            <article className="w-full rounded-md border border-gray-300 bg-white px-3 py-3 md:px-4 md:py-3.5">
+            <article className="w-full rounded-md border border-gray-700 bg-gray-900 px-3 py-3 md:px-4 md:py-3.5">
                 <div className="flex items-start justify-between gap-3">
                     <div>
-                        <h3 className="text-sm leading-tight font-semibold text-gray-900 md:text-base">
+                        <h3 className="text-sm leading-tight font-semibold text-gray-100 md:text-base">
                             {title}
                         </h3>
-                        <p className="mt-0.5 text-[11px] text-gray-900 md:text-xs">
+                        <p className="mt-0.5 text-[11px] text-gray-300 md:text-xs">
                             {organization}
                         </p>
                     </div>
@@ -59,7 +59,7 @@ export function ExperienceCard({
                     />
                 </div>
 
-                <p className="mt-3 text-center text-[11px] font-light text-slate-500 italic md:text-xs">
+                <p className="mt-3 text-center text-[11px] font-light text-slate-300 italic md:text-xs">
                     {period}
                 </p>
             </article>

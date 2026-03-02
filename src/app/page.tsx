@@ -7,11 +7,11 @@ export default function Home() {
 
   const t = {
     pt: {
-      navCta: 'Sobre mim',
+      navCta: 'Resumo',
       title: 'Olá, sou Henrique Azevedo',
       subtitle:
         'Desenvolvedor Salesforce (Pleno) na Belgo Arames, com foco em Sales Cloud, Apex e Flows.',
-      aboutTitle: 'Sobre mim',
+      aboutTitle: 'Resumo',
       aboutText:
         'Atuo no CRM da Belgo Arames desenvolvendo soluções escaláveis com Sales Cloud, Apex e Flows. Tenho +100.000 pontos no Trailhead e também desenvolvo como Full Stack, com backend em Java e frontend em HTML, CSS e JavaScript/React.',
       interestsTitle: 'Áreas de interesse',
@@ -73,7 +73,7 @@ export default function Home() {
   return (
     <div className="min-h-[calc(100vh-80px)] bg-[#0b1d3a] text-white">
       {/* HERO */}
-      <section className="relative flex min-h-[70vh] items-center justify-center overflow-hidden px-6">
+      <section className="relative flex min-h-[85vh] items-center justify-center overflow-hidden px-6">
         <div className="pointer-events-none absolute inset-0 opacity-60">
           <div className="h-full w-full bg-[radial-gradient(circle_at_20%_30%,rgba(255,255,255,0.35)_1px,transparent_1px),radial-gradient(circle_at_60%_20%,rgba(255,255,255,0.25)_1px,transparent_1px),radial-gradient(circle_at_80%_60%,rgba(255,255,255,0.2)_1px,transparent_1px)] bg-[length:140px_140px,220px_220px,180px_180px]" />
         </div>

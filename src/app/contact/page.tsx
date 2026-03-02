@@ -79,7 +79,7 @@ export default function ContactPage() {
   return (
     <div className="min-h-[calc(100vh-80px)] bg-[#0b1d3a] text-white">
       <section className="mx-auto max-w-6xl px-6 py-14">
-        <div className="mb-10">
+        <div className="mb-10 py-12">
           <h1 className="text-4xl font-semibold">Contato</h1>
           <p className="mt-2 text-white/70">
             Fale comigo por redes sociais ou envie uma mensagem pelo formulário.

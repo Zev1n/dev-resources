@@ -8,7 +8,6 @@ import { ListIcon, XIcon } from '@phosphor-icons/react';
 
 const navLinks = [
     { href: '/', label: 'Home' },
-    { href: '/indications', label: 'Indicações' },
     { href: '/about', label: 'Sobre mim' },
     { href: '/projects', label: 'Projetos' },
     { href: '/experiences', label: 'Experiencias' },
@@ -113,7 +112,7 @@ export function Header() {
                 }`}
             >
                 <div
-                    className={`flex flex-col gap-1 bg-white/95 px-6 py-4 backdrop-blur-sm transition-opacity duration-300 ${
+                    className={`flex flex-col gap-1 bg-gray-900/95 px-6 py-4 backdrop-blur-sm transition-opacity duration-300 ${
                         isMenuOpen ? 'opacity-100' : 'opacity-0'
                     }`}
                 >
@@ -126,7 +125,7 @@ export function Header() {
                                 className={`rounded-lg px-4 py-3 font-medium transition-colors ${
                                     isActive
                                         ? 'text-teal-primary'
-                                        : 'text-neutral-500 hover:bg-neutral-50 hover:text-black'
+                                        : 'text-neutral-300 hover:bg-neutral-50 hover:text-black'
                                 }`}
                             >
                                 <span className="inline-flex flex-col">
