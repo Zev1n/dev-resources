@@ -19,7 +19,7 @@ export function Logo({ size, variant = 'default' }: LogoProps) {
     return (
         <div
             className={`flex items-center gap-4 font-semibold transition-colors duration-300 ${className} ${
-                isLight ? 'text-white' : 'text-black'
+                isLight ? 'text-white' : 'text-white'
             }`}
         >
             <CodeIcon className={isLight ? 'text-white' : 'text-blue-primary'} />

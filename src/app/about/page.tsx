@@ -3,6 +3,8 @@
 import Image from 'next/image';
 import { useMemo, useState } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { Subtitle } from '@/components/Subtitle';
+import { Title } from '@/components/Title';
 
 type LangContent = {
   title: string;
@@ -106,9 +108,9 @@ export default function AboutPage() {
   return (
     <div className="bg-background text-foreground">
       <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
-        <div className="mb-10">
-          <h1 className="text-3xl font-semibold md:text-4xl">{content.title}</h1>
-          <p className="mt-2 text-sm text-muted-foreground">{content.subtitle}</p>
+        <div className="mb-10 pt-6">
+          <Title text={content.title}/>
+          <Subtitle text={content.subtitle}/>
         </div>
 
         {/* Card gigante clicável */}
