@@ -45,45 +45,43 @@ export default function ContactPage() {
         e.preventDefault();
         setErrorMsg('');
 
-        // validação rápida
-        if (
-            !EMAILJS_SERVICE_ID ||
-            !EMAILJS_TEMPLATE_ID ||
-            !EMAILJS_TEMPLATE_CONFIRMATION_ID ||
-            !EMAILJS_PUBLIC_KEY
-        ) {
+        if (!EMAILJS_SERVICE_ID || !EMAILJS_PUBLIC_KEY) {
             setStatus('error');
-            setErrorMsg(
-                'EmailJS não configurado. Verifique seu .env.local (SERVICE_ID, TEMPLATE_ID, TEMPLATE_CONFIRMATION_ID e PUBLIC_KEY).'
-            );
+            setErrorMsg('EmailJS não configurado corretamente.');
             return;
         }
+
+        const time = new Date().toLocaleString('pt-BR', {
+            timeZone: 'America/Sao_Paulo',
+        });
 
         try {
             setStatus('sending');
 
-            // 1) Email para você (mensagem do usuário)
+            // 1️⃣ EMAIL PARA VOCÊ (NOTIFICAÇÃO)
             await emailjs.send(
                 EMAILJS_SERVICE_ID,
-                EMAILJS_TEMPLATE_ID,
+                process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!, // Contact Us
                 {
                     name: form.name,
                     email: form.email,
                     subject: form.subject,
                     message: form.message,
+                    time,
                 },
                 { publicKey: EMAILJS_PUBLIC_KEY }
             );
 
-            // 2) Email de confirmação para a pessoa (auto-reply)
+            // 2️⃣ EMAIL DE CONFIRMAÇÃO PARA O USUÁRIO
             await emailjs.send(
                 EMAILJS_SERVICE_ID,
-                EMAILJS_TEMPLATE_CONFIRMATION_ID,
+                process.env.NEXT_PUBLIC_EMAILJS_AUTO_REPLY_TEMPLATE_ID!, // Auto Reply
                 {
-                    to_name: form.name,
-                    to_email: form.email,
-                    subject: form.subject,
+                    name: form.name,
+                    to_email: form.email, // ⚠ ESSENCIAL
+                    email: form.email,
                     message: form.message,
+                    time,
                 },
                 { publicKey: EMAILJS_PUBLIC_KEY }
             );
@@ -91,9 +89,9 @@ export default function ContactPage() {
             setStatus('success');
             setForm({ name: '', email: '', subject: '', message: '' });
         } catch (err) {
-            console.error('Erro ao enviar email:', err);
+            console.error(err);
             setStatus('error');
-            setErrorMsg('Não foi possível enviar. Tente novamente em instantes.');
+            setErrorMsg('Erro ao enviar mensagem.');
         }
     }
 
